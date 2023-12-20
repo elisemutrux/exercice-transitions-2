@@ -1,0 +1,39 @@
+#ex01 .recipe {
+  transition: transform 0.3s;
+}
+
+#ex01 .recipe:hover {
+  transform: scale(1.1);
+}
+
+#ex02 .recipe img {
+  transition: transform 0.5s;
+}
+
+#ex02 .recipe:hover img {
+  transform: rotateZ(10deg);
+}
+
+#ex03 .recipe img {
+  transition: filter 0.5s;
+}
+
+#ex03 .recipe:hover img {
+  filter: opacity(0.5);
+}
+
+#ex04 .recipe .recipe-title {
+  transition: transform 0.3s;
+}
+
+#ex04 .recipe:hover .recipe-title {
+  transform: translateX(15px);
+}
+
+#ex05 .recipe .recipe-title {
+  transition: transform 0.3s 0.2s;
+}
+
+#ex05 .recipe:hover .recipe-title {
+  transform: translateX(15px);
+}
